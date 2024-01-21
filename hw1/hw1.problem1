@@ -1,0 +1,120 @@
+Script started on 2024-01-20 00:11:51-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="210" LINES="58"]
+[?2004h]0;madwarrior@MADWARRIOR: ~[01;32mmadwarrior@MADWARRIOR[00m:[01;34m~[00m$ echo "Hello and elcome to the new quarter"[C[1@w
+[?2004lHello and welcome to the new quarter
+[?2004h]0;madwarrior@MADWARRIOR: ~[01;32mmadwarrior@MADWARRIOR[00m:[01;34m~[00m$ date
+[?2004lSat Jan 20 00:12:27 PST 2024
+[?2004h]0;madwarrior@MADWARRIOR: ~[01;32mmadwarrior@MADWARRIOR[00m:[01;34m~[00m$ pwd
+[?2004l/home/madwarrior
+[?2004h]0;madwarrior@MADWARRIOR: ~[01;32mmadwarrior@MADWARRIOR[00m:[01;34m~[00m$ cd ..
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ mkdir temp
+[?2004lmkdir: cannot create directory ‘temp’: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo mkdir temop[K[Kp
+[?2004l[sudo] password for madwarrior: 
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m  [01;34mtemp[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ mv temp temp_new
+[?2004lmv: cannot move 'temp' to 'temp_new': Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo mv temp temp_new
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m  [01;34mtemp_new[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ cd temp_new
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ touch file5.txt
+[?2004ltouch: cannot touch 'file5.txt': Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ sudo touch file5.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ mv file5.tct[K[Kxt test.txt
+[?2004lmv: cannot move 'file5.txt' to 'test.txt': Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ sudo mv file5.txt test.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ ls
+[?2004ltest.txt
+[?2004h]0;madwarrior@MADWARRIOR: /home/temp_new[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home/temp_new[00m$ cd ..
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m  [01;34mtemp_new[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ del [K[K[K[Ksudo del temp_new
+[?2004lsudo: del: command not found
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo rmdir temp_new
+[?2004lrmdir: failed to remove 'temp_new': Directory not empty
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo rmdir temp_new[C[C-temp_newrtemp_new temp_new
+[?2004lrmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo rm -r temp_new
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ echo "This is a secret" > secretfile.txt
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ echo "This is a secret" > secretfile.txt[1@s[1@u[1@d[1@o[1@ 
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ touch secretfile.txt
+[?2004ltouch: cannot touch 'secretfile.txt': Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo secretfile.txt
+[?2004lsudo: secretfile.txt: command not found
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo secretfile.txttsecretfile.txtosecretfile.txtusecretfile.txtcsecretfile.txthsecretfile.txt secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m  secretfile.txt
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ "[Ke[Ksudo echo "This is secretZ"[K[K"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K'This is the [K[K[K[Ka secret' [K > secretfile.txt
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo 'This is a secret' > secretfile.txt[1P[1@"[C[C[1P[1@"
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ chmod w secretfile.txt
+[?2004lchmod: invalid mode: ‘w’
+Try 'chmod --help' for more information.
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ chmod +x secretfile.x[Ktxt
+[?2004lchmod: changing permissions of 'secretfile.txt': Operation not permitted
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmof[Kd -x[K[K+x secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mmadwarrior[0m  [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo [Kecho [K[K[K[K[K echo "This is a secret" . [K[K> secretfile.txt
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "This is a secret" > secretfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo chmod +x secretfile.txt[C[1P secretfile.txtw secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod +w secretfile.txt[17@echo "This is a secret" >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "This is a secret" > secretfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pchmod +w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17@echo "This is a secret" >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pchmod +w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod +rw secretfile.txt[16@echo "This is a secret" >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "This is a secret" > secretfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pchmod +rw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C secretfile.txt[C[C secretfile.txt[1@+[1@g
+[?2004lchmod: cannot access '+g': No such file or directory
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod +rw +g  secretfile.txt[C[1P[1P
+[?2004lchmod: invalid mode: ‘+rwg’
+Try 'chmod --help' for more information.
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ chmod 744 secretfile[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,[K.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls[K[Ksudo echo "This is secret" > secretfile.txt
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "This is secret" > secretfile.txt[1P[1@'[1P[1@'
+[?2004lbash: secretfile.txt: Permission denied
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls -l
+[?2004ltotal 4
+drwxr-x--- 3 madwarrior madwarrior 4096 Jan 20 00:11 [0m[01;34mmadwarrior[0m
+-rwxr--r-- 1 root       root          0 Jan 20 00:28 [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo [K[K[K[K[Kpwd
+[?2004l/home
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod -R 777 pwd
+[?2004lchmod: cannot access 'pwd': No such file or directory
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod -R 777 pwd%pwd[C[C[C%
+[?2004lchmod: cannot access '%pwd%': No such file or directory
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod -R 777 %pwd%[C[K[K[K[K[K/home
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "This is d[Ksecret" > secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls -l
+[?2004ltotal 8
+drwxrwxrwx 3 madwarrior madwarrior 4096 Jan 20 00:11 [0m[34;42mmadwarrior[0m
+-rwxrwxrwx 1 root       root         15 Jan 20 00:38 [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmdo[K[Kod +r secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls -l
+[?2004ltotal 8
+drwxrwxrwx 3 madwarrior madwarrior 4096 Jan 20 00:11 [0m[34;42mmadwarrior[0m
+-rwxrwxrwx 1 root       root         15 Jan 20 00:38 [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo chmod -w secretfile.txt
+[?2004lchmod: secretfile.txt: new permissions are r-xrwxrwx, not r-xr-xr-x
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls -k[Kl;[K
+[?2004ltotal 8
+drwxrwxrwx 3 madwarrior madwarrior 4096 Jan 20 00:11 [0m[34;42mmadwarrior[0m
+-r-xrwxrwx 1 root       root         15 Jan 20 00:38 [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ sudo echo "some new lines using cat" | car [K[Kt [K > secretfile.txt
+[?2004l[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ ls
+[?2004l[0m[34;42mmadwarrior[0m  [01;32msecretfile.txt[0m
+[?2004h]0;madwarrior@MADWARRIOR: /home[01;32mmadwarrior@MADWARRIOR[00m:[01;34m/home[00m$ exit
+[?2004lexit
+
+Script done on 2024-01-20 00:53:04-08:00 [COMMAND_EXIT_CODE="0"]
