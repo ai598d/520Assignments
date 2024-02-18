@@ -1,3 +1,7 @@
+//!  A Dynamic Array Class. 
+/*!
+  A more elaborate class description.
+*/
 #include "dynamic_array.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +12,10 @@
 int NumArrays = 0; // global variable to keep track of number of Dynamic arrays created
 
 double* ptr;
-
+/*! \fn int main(void)
+* param void
+* \return EXIT_SICCESS
+*/
 
 int main(){
 

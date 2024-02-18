@@ -69,10 +69,34 @@ DynamicArray * DynamicArray_concat ( const DynamicArray * a, const DynamicArray 
 
 /*! Mathematical operations
   */
+
+/*! Return the minimum value in the buffer. 
+ *  \param da DynamicArray
+ *  
+ */
 double DynamicArray_min ( const DynamicArray * da );
+
+/*! Return the max value in the buffer. 
+ *  \param da DynamicArray
+ *  
+ */
 double DynamicArray_max ( const DynamicArray * da );
+
+/*! Return mean value in the buffer. 
+ *  \param da DynamicArray
+ *  
+ */
 double DynamicArray_mean ( const DynamicArray * da );
+/*! Return median value in the buffer. 
+ *  \param da DynamicArray
+ *  
+ */
 double DynamicArray_median ( const DynamicArray * da );
+
+ /*! Return sum in the buffer. 
+ *  \param da DynamicArray
+ *  
+ */
 double DynamicArray_sum ( const DynamicArray * da );
 
 

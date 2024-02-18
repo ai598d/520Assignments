@@ -9,11 +9,16 @@ int main(){
 
     TypedArray<int> x; // instantiate
 
+    x.extend_buffer();
+
+
+    x.print_origin();
+    /*
     x.set(0,3);
     x.set(1,4);
     x.set(2,5);
     x.set(3,6);
-
+    */
     /* *************************************push pop test**********************
     x.push_front(4);
     std::cout<<x.get(0)<<"\n"<<std::endl;    
