@@ -6,13 +6,13 @@ CC          := g++ -std=c++14 -Wno-psabi
 DGEN        := doxygen
 
 #The Target Binary Program
-TARGET      := stopwatch
+TARGET      := unit_test #stopwatch
 
 #The Directories, Source, Includes, Objects, Binary and Resources
 SRCDIR      := ./src
-INCDIR      := ./include
+INCDIR      := $(shell pwd)#./include
 BUILDDIR    := ./build
-TARGETDIR   := ./bin
+TARGETDIR   := $(shell pwd)#./bin
 SRCEXT      := cc
 
 #Flags, Libraries and Includes

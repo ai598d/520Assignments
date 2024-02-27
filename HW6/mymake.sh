@@ -1,1 +1,0 @@
-gcc stopwatch.cpp -lstdc++ -o stopwatch.o
